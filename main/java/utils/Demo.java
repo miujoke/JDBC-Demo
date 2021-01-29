@@ -13,7 +13,8 @@ public class Demo {
          * sql 字符串既是原生的sql语句
          */
         // 需要执行的sql语句----增删改均用此方法
-        String sql = "insert into user(username,password,email) values('miujoke','miujoke','admin@qq.com')";
+        // 查询语句 select * from user
+        String sql = "insert into user(username,password,email) values('miujoke','miujoke','miujoke@qq.com')";
         DBUtil.update(sql);
         // 需要执行的sql语句----查用此方法
 //        DBUtil.query(sql);

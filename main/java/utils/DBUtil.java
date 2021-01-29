@@ -16,9 +16,6 @@ public class DBUtil {
       <version>8.0.18</version>
     </dependency>
      */
-    private ResultSet rs;
-    private Statement stmt;
-    private Connection conn;
     // 连接数据库的账户一般都是root
     final static String username = "root";
     // 连接数据库的密码，此处根据自己的本地数据库填写
